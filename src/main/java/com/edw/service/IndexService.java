@@ -48,8 +48,11 @@ public class IndexService {
         // put it
         cache.put(key, Math.random());
 
-        // and get it
+        // get it -- somehow this is not monitored in Jaeger
         Double value = Double.parseDouble((String)cache.get(key));
+
+        // and remove it
+        cache.remove(key);
 
         span.end();
 

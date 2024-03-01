@@ -39,3 +39,8 @@ This log file contains Trace ID and Span ID to make debugging easier
 2024-02-29T19:51:10.074+07:00  INFO [app-testing,8a41c6156fbaf9f8e19d6cde8e74aa58,04d60c49d88fa273] 24032 --- [nio-8080-exec-2] com.edw.service.IndexService             : starting ====================
 2024-02-29T19:51:10.079+07:00  INFO [app-testing,8a41c6156fbaf9f8e19d6cde8e74aa58,04d60c49d88fa273] 24032 --- [nio-8080-exec-2] com.edw.service.IndexService             : done processing 17cf17eb-0eee-420d-aa23-19fbd6cf3793 - 0.2734244284738404 ====================
 ```
+
+## Blog Post
+```
+https://edwin.baculsoft.com/2024/02/distributed-tracing-with-spring-boot-infinispan-and-jaeger/
+```
